@@ -1,14 +1,371 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>sarah.walker2311</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>nova</title>
+   
+   <!-- Always force latest IE rendering engine & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Example of the Responsive Grid System</title>
+	<meta name="description" content="This is the Responsive Grid System, a quick, easy and flexible way to create a responsive web site.">
+	<meta name="keywords" content="responsive, grid, system, web design">
+
+	<meta name="author" content="www.grahamrobertsonmiller.co.uk">
+
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<!-- Responsive and mobile friendly stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/col.css" media="all">
+	<link rel="stylesheet" href="css/2cols.css" media="all">
+	<link rel="stylesheet" href="css/3cols.css" media="all">
+	<link rel="stylesheet" href="css/4cols.css" media="all">
+	<link rel="stylesheet" href="css/5cols.css" media="all">
+	<link rel="stylesheet" href="css/6cols.css" media="all">
+	<link rel="stylesheet" href="css/7cols.css" media="all">
+	<link rel="stylesheet" href="css/8cols.css" media="all">
+	<link rel="stylesheet" href="css/9cols.css" media="all">
+	<link rel="stylesheet" href="css/10cols.css" media="all">
+	<link rel="stylesheet" href="css/11cols.css" media="all">
+	<link rel="stylesheet" href="css/12cols.css" media="all">
+    
+
+	<link rel="stylesheet" type="text/css" href="../Responsive Design 050816/fullPage.js-master/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="../Responsive Design 050816/fullPage.js-master/examples/examples.css" />
+
+	    <link rel="stylesheet" href="css/custom.css" media="all">
+
+	<style type="text/css">
+	
+	p {font-size:11px; text-align:left; margin:auto; padding:10px;}
+	
+	p2 {font-size:11px; text-align:center; margin:auto; padding:10px;}
+
+	h2 { font-size:13px; font-style:italic; padding:20px,0px,20px,0px; }
+	
+	h3 {color:#00E5B2; font-size:18px;}
+
+	.col {padding:1em 0; text-align:center;}
+
+	.slide1 {background-image: url(../Responsive%20Design%20050816/Images/documents-export-2016-03-21/nova5.jpg); }
+
+	img {
+    max-width: 100%;
+    height: auto;
+	}
+	
+	</style>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+    <script type="text/javascript" src="../vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="../Responsive Design 050816/fullPage.js-master/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="../Responsive Design 050816/fullPage.js-master/examples/examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['white', 'whitesmoke', 'white', 'whitesmoke', 'white','whitesmoke'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
+				slidesNavigation: true,
+				menu: '#menu',
+				scrollingSpeed: 900,
+			});
+		});
+	</script>
+
 </head>
 
-<body>
+<body class="fp-responsive">
 
-<h1>sarahwalker.2311.github.io</h1>
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">History</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Staff</a></li>
+    <li data-menuanchor="4thpage"><a href="#4thpage">Spreads</a></li>
+</ul>
 
+<div id="fullpage">
+  <div class="section" id="firstpage">
+  <div class="row group" id="mainpage">
+  	<div class="col span_1_of_7"> 
+    </div>
+    <div class="col span_5_of_7">
+  			<img src="Images/novalogotrans.png">
+            <h2> a visual history of nova magazine 
+            </h2>
+        </div>
+        <div class="col span_1_of_7"> 
+    </div>
+    </div><!-- /row--> 
+  </div><!-- /section-->
+  
+  <div class="section">
+  	<div class="slide" id="slide1" data-anchor="slide1">
+    	<div class="row group">
+                    
+                <div class="intro">
+                    <h1>History</h1>
+                </div>
+                
+       	</div>
+        </div>
+    
+    <div class="slide" id="slide2" data-anchor="slide2">
+    	<div class="col span_1_of_7">
+    	</div>
+   				 <div class="col span_2_of_7">
+    				<img src="Images/documents-export-2016-03-21/nova-magazine-1.jpg">
+    			</div>
+                
+         	<div class="col span_1_of_7">
+    		</div>
+        
+    	<div class="col span_2_of_7">
+    	<h3>THE HISTORY OF NOVA MAGAZINE</h3>
+    
+           		 <p><h2> “Society was apparently witnessing the arrival of the ‘thinking female’ together with a magazine created especially for her. 				The magazine was Nova.” </h2> </p>
+             	<p> When Nova Magazine was launched in 1965, the country had already undergone a lot of changes and continued to do so during Nova’s ten year life span. These included, the first man on the moon, artistic movements such as, pop art, a world famous speech by Martin Luther King “I have a dream” and the first ever ‘mini skirt’, within this time Janice Winship argues, “Women’s horizons had widened.” These cultural and political changes were a lot more apparent due to the increasing number of people with televisions in their home. During this time, Nova was born and was one of a kind linking together both fashion and politics. “The 1960s women’s magazines were incredibly volatile. In that decade 14 new magazines were launched and 11 folded.” This was due to the women’s liberation movement, which saw women rebelling against what was considered the social norms and also protesting against how women were perceived in magazines. 
+             	<p>It was a time of change and experimentation. “But the era is passing when women’s magazines can prosper by appealing at a low level to an undifferentiated mass of women. Social changes are at work, leavening the ‘lump’ and breaking it down into sub-groups, some of them newly created, others newly revealed.” But these sub-groups are not enough to keep a national magazine alive and successful. It needed mass, loyal readers, who chose Nova over any other magazine. Nova has been compared to ‘She’ a magazine that also had a small readership. “She made no attempt to appeal to a particular market. It did not therefore offer advertisers a group of women with obvious consumption ‘needs’.” As a result, like Nova, She is no longer with us. This shows that advertisers want a specific target audience to invest in, but not one that is so narrow there isn’t enough financial gain.
+            
+            Hollie Bridgland, 2015
+            </p>
+            </p>
+            </div>
+                <div class="col span_1_of_7">
+                </div>
+        </div>
+                
+       <div class="slide" id="slide3" data-anchor="slide3"> 
+       		<div class="col span_1_of_7">
+    		</div>
+            
+            <div class="col span_2_of_7">
+                    <img src="Images/documents-export-2016-03-21/nova-magazine-1970-02.jpg">
+    			</div>
+            
+            <div class="col span_2_of_7">
+    			<h3>Legacy</h3>
+                
+                <p>
+                The increasingly competitive women's magazine market claimed another victim yesterday with the closure, for the second time in its history, of the style magazine Nova.
+
+IPC pulled the plug on its recently revived title, saying it wanted to concentrate on the bigger selling Marie Claire. Staff on Nova, whose groundbreaking 1960s incarnation launched the career of the writer Molly Parkin, were said to be devastated.
+
+It is thought that IPC is attempting to trim its stable of loss-making titles in advance of a possible stock market flotation next year. Its troubled Woman's Realm, aimed at more mature readers, was merged with Woman's Weekly last month.
+
+Tim Brooks, the managing director of IPC South Bank, one of the publisher's London magazines divisions, said that Nova had not been performing well enough.
+                </p>
+                <p>
+                "Nova was ground-breaking in its style and delivery, but commercially has not reached its targets. IPC has an aggressive launch strategy, and an important part of this strategy is the strength to take decisive action and close unviable titles."
+
+After being absent from the newsstands for 25 years, it was revived in May last year under the editorship of Deborah Bee and was positioned as an edgy, fashion based lifestyle magazine.
+
+Sales were not outstanding, and a new team was brought in under the editorship of Jeremy Langmead, a former editor of the Sunday Times's Style magazine, and his deputy Rachel Cook.
+
+But staff on the magazine believe that IPC did not have the faith required to turn the magazine round under the new regime. The June issue, which goes on sale soon, will be the last, even though Mr Langmead and Ms Cook have already finalised the July edition.
+                </p>
+            
+       </div>
+                
+	 </div><!-- /row-->
+  </div><!-- /section-->
+  	
+    <div class="section">
+     	<div class="slide" id="slide1" data-anchor="slide1">
+    	<div class="row group">
+                    
+                <div class="intro">
+                    <h1>Staff</h1>
+                </div>
+                
+       	</div>
+        </div>
+        
+        <div class="slide" id="slide2" data-anchor="slide2">
+        <div class="row group">
+            <div class="col span_1_of_7">
+            </div>
+            	
+                <div class="col span_2_of_7">
+                <img src="../Responsive Design 050816/Images/molly-parkin.jpg">
+                </div>
+                
+                <div class="col span_1_of_7">
+            </div>
+                
+                <div class="col span_2_of_7">
+                <h3> Molly Parkin - Founder</h3>
+                <p>
+                “Nova magazine was very much the first street fashion magazine. i-D didn’t exist, and the term ‘street’ had not come into being,” says Baker, now the long-serving and respected fashion director of The Mail on Sunday’s lifestyle supplement, You. “Understand that, back in the 1970s, fashion was driven by Paris and couture and design, and I was part of a group of working-class girls who were just totally anti label. Through my pages at Nova I was having a wonderful time, being a bit of a feminist and a rebel, saying, ‘I don’t want to wear heels and lipstick!’ We don’t want to be objects for men, but we do want to wear men’s clothing and we want to have men’s jobs.”
+                </p>
+                </div>
+                
+            <div class="col span_1_of_7">
+            </div>
+ 		 </div>
+		</div>
+       
+		
+        <div class="slide" id="slide3" data-anchor="slide3">
+        <div class="row group">
+			 <div class="col span_1_of_7">
+            </div>
+            	
+                <div class="col span_2_of_7">
+                <img src="../Responsive Design 050816/Images/carolinebaker.png">
+               	</div>
+                
+                 <div class="col span_1_of_7">
+            	</div>
+		
+        		<div class="col span_2_of_7">
+                <h3>Caroline Baker - Founder</h3>
+                
+                <p>Nova was everything that Vogue was not…“I started putting girls in men’s clothes. Now, Yves Saint Laurent had just produced the tuxedo, but who could afford Yves Saint Laurent? So I went to Moss Brothers, where they had a great second-hand department. It didn’t have to fit, just put a gold belt around it and then wear high heels.”She put models in the crisp white garb of a waiter and piled on diamonds. She was the first to put her girls in legwarmers, something she started doing herself because she was always so cold; she experimented with surgeons’ robes, somehow splicing them into her shoots. She then turned clothes inside out, an act of sedition that Japanese designers such as Rei Kawakubo would adopt years later. She also experimented with Moroccan clothes and various African modes of dressing.
+                </p>
+                </div>
+    		
+            <div class="col span_1_of_7">
+            </div>
+            </div>
+       		</div><!-- /row group-->
+       </div><!-- /section-->
+     
+	
+
+  	<div class="section">
+    <div class="slide" id="slide1" data-anchor="slide1">
+			<div class="row group">
+            <div class="intro">
+            	<div class="col span_2_of_6">
+                </div>
+                <div class="col span_2_of_6">
+				<h1>Iconic Covers and Spreads</h1>
+                </div>
+                <div class="col span_2_of_6">
+                </div>
+			</div>
+            </div><!-- /row group-->
+		</div>
+	    
+        <div class="slide" id="slide2" data-anchor="slide2">
+        	<div class="row group">
+            	<div class="col span_1_of_4">
+                </div>
+                <div class="col span_1_of_4">
+                    <img src="../Responsive Design 050816/Images/novaslideshow/CLSP-Riposte-01-int.jpeg">
+                 </div>
+                 <div class="col span_1_of_4">
+                    <img src="../Responsive Design 050816/Images/novaslideshow/CLSP-Riposte-02-int.jpeg">
+                 </div>
+                 <div class="col span_1_of_4">
+                </div>
+            </div><!-- /row group-->
+		</div><!-- /end of slide 2-->
+        
+		<div class="slide" id="slide3" data-anchor="slide3">
+        <div class="row group">
+            	<div class="col span_1_of_6">
+                </div>
+                <div class="col span_4_of_6">
+					<img src="../Responsive Design 050816/Images/novaslideshow/NovaArchive-FEATURE-07-int.jpg">
+                </div>
+                <div class="col span_1_of_6">
+                </div>
+		</div><!-- /row group-->
+        </div> <!-- /end of slide 3-->
+        
+        <div class="slide" id="slide4" data-anchor="slide4">
+        <div class="row group">
+            	<div class="col span_1_of_4">
+                </div>
+                <div class="col span_1_of_4">
+                    <img src="../Responsive Design 050816/Images/novaslideshow/CLSP-Riposte-03-int.jpeg.jpg">
+                    </div>
+                <div class="col span_1_of_4">
+                    <img src="../Responsive Design 050816/Images/novaslideshow/CLSP-Riposte-04-int.jpeg">
+                    </div>
+                <div class="col span_1_of_4">
+                </div> 
+		</div><!-- /row group-->
+        </div> <!-- /end of slide 4-->      
+          
+		<div class="slide" id="slide5" data-anchor="slide5">
+        	<div class="row group">
+            	<div class="col span_1_of_6">
+                </div>
+                <div class="col span_4_of_6">
+					<img src="../Responsive Design 050816/Images/novaslideshow/NovaArchive-FEATURE-03-int.jpg">
+                 </div>
+                 <div class="col span_1_of_6">
+                </div>
+       		</div><!-- /row group-->
+        </div> <!-- /end of slide 5-->
+         
+     	<div class="slide" id="slide6" data-anchor="slide6">
+        	<div class="row group">
+            	<div class="col span_1_of_4">
+                </div>
+                <div class="col span_1_of_4">
+                    <img src="../Responsive Design 050816/Images/novaslideshow/CLSP-Riposte-05-int.jpeg">
+                </div>
+                <div class="col span_1_of_4">
+                    <img src="../Responsive Design 050816/Images/novaslideshow/CLSP-Riposte-06-int.jpeg">
+                </div>
+        </div><!-- /row group-->
+        </div> <!-- /end of slide 6-->
+        	
+        <div class="slide" id="slide7" data-anchor="slide7">
+        	<div class="row group">
+            	<div class="col span_1_of_6">
+                </div>
+                <div class="col span_4_of_6">
+					<img src="../Responsive Design 050816/Images/novaslideshow/NovaArchive-FEATURE-06-int.jpg">
+                 </div>
+                 <div class="col span_1_of_6">
+                </div>
+          </div><!-- /row group-->
+        </div> <!-- /end of slide 7-->
+        
+        <div class="slide" id="slide8" data-anchor="slide8">
+        	<div class="row group">
+            	<div class="col span_1_of_4">
+                </div>
+                <div class="col span_1_of_4">
+                    <img src="../Responsive Design 050816/Images/novaslideshow/NovaArchive-FEATURE-05-int.jpg">
+                 </div>
+                 <div class="col span_1_of_4">
+                    <img src="../Responsive Design 050816/Images/novaslideshow/NovaArchive-FEATURE-08-int.jpg"><br>
+                 </div>
+		</div><!-- /row group-->
+        </div> <!-- /end of slide 8-->
+        	
+       <div class="slide" id="slide9" data-anchor="slide9">
+       <div class="row group">
+           		<div class="col span_1_of_6">
+                </div>
+                    <div class="col span_4_of_6">
+                        <img src="../Responsive Design 050816/Images/novaslideshow/NovaArchive-FEATURE-04-int.jpg">
+                    </div>
+                <div class="col span_1_of_6">
+                </div>
+		</div><!-- /row group-->
+        </div> <!-- /end of slide 8-->
+        
+  </div><!-- /end of Page 4-->
+          
+ </div><!-- /end of Full Page-->
+                 
 
 </body>
 </html>

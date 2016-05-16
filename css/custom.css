@@ -1,0 +1,44 @@
+/* CSS Document */
+
+p {font-size:11px; text-align:center; margin:auto; padding:10px;}
+
+h2 { font-size:13px; font-style:italic; padding:20px,0px,20px,0px; }
+
+.col {padding:1em 0; text-align:center;}
+
+.slide1 {background-image: url(../Responsive%20Design%20050816/Images/documents-export-2016-03-21/nova5.jpg); }
+	
+h1 { font-family:"Gill Sans"; color:#00E5B2; font-size:80px
+}
+
+#menu li {
+	display:inline-block;
+	margin: 15px;
+	color: #000;
+	background:#000000;
+	background: rgba(255,255,255, 0.8);
+	-webkit-border-radius: 20px;
+			border-radius: 20px;
+	font-family:"Gill Sans"; 
+}
+
+#menu li:hover{
+	background:#00E5B2;
+}
+
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.8);
+	color: #fff;
+}
+
+#mainpage{
+	background-image:url(../Images/documents-export-2016-03-21/homeimage.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+	}
